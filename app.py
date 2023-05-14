@@ -2,6 +2,8 @@ import os
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
+# Set the SLACK_BOT_TOKEN environment variable to your bot token
+client = WebClient(token="XXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXX")
 
 
 try:
