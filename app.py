@@ -5,6 +5,8 @@ from slack_sdk.errors import SlackApiError
 # Set the SLACK_BOT_TOKEN environment variable to your bot token
 client = WebClient(token="XXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXX")
 
+# Set the channel ID to the channel you want to dump messages from
+channel_id = "1231242"
 
 try:
     # Call the conversations.history method using the WebClient
